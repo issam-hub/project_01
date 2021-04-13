@@ -1,0 +1,444 @@
+/*---------CSS---------*/ 
+/* ---------------- */
+/* .name to call a class for styling */
+/* #name to call an id for styling */
+
+/* =>**element styling**<= */
+/* style in element is an inline style (for the knowledge only, don't use it) */
+
+/* =>**background color image repeat**<= */
+/* rgb(bzynz / percent of the litness u know (zreg bared hhh ...)) */
+/* url() is a function to call the image*/
+/* background-repeat to repeat the background multitimes */
+
+/* =>**background attachement position size */
+/* background-attachement: => scroll to fixe the image up side where you are scrolling
+=> fixed to fix the image and still watching it whatever you scrolling the page
+background-position: bayna
+background-size to resize the picture according to what u want, ex: cover to make it cover all the content, contain to make it cover but its get bigger and smaller , and u can make a width and height to it
+*/
+/* =>**padding (الهوامش الداخلية)**<= 
+the directions on it goes like the watch, top right buttom left
+*/
+/* =>**margin (الهوامش الخارجية)**<=
+same like padding but it accept a negatif value
+auto => to let the browser split the container by half , you know it
+*/
+/* =>**border**<=
+border-width : the size of it
+border-color: bayna
+border-style: bayna
+*/
+
+/* =>**outline**<= 
+outside the content, it has a style for a one line that match with them, not like border that you can put a deffrent style for each side
+just learn it for info, you can whatever you want with border
+*/
+
+/* =>** desplay: block, inline, inline-block**<=  
+  Block
+
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+
+  - Do Not Respect Width, Height
+  - Respect Padding And Margin [ Just Right + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+*/
+
+/* =>**vesibility and their use cases
+display: none to hide the stuff and replace it by the next stuff you know
+vesibility: hidden same as before but it still a blank place, you know
+*/
+
+/* =>**multiple same selectors**<=
+just put all the same stuff in group and done
+ex: 
+.kda_mena1,
+.kda_mena2,
+.kda_mena3,
+.kda_mena4 {
+  write down the same stuff here
+}
+*/
+
+/* =>**Nesting**<=
+jsut write down the parent element and then the child , after that open {} and do the magic
+*/
+
+/* =>**width and height**<=
+min-width => use it when there is a probility to the text accross to the limit
+max-width => use it to put limit for the width
+same thing for height 
+new thing in CSS3 width = fit all content to let the width fit the content even the display is block
+*/
+
+/* =>**overflow**<=
+kayn dak el overflow eli yji ki tkon dayer limit lel width wo the text is bigger than it
+so use overflow , there is |hidden| to hide the overflowed text and |scroll| to scroll the overflow content
+and auto take care of you :) there is of course overflow-x and overflow-y
+*/
+
+/* =>**shadow**<=
+text-shadow: (H-shadow) (V-shadow) (Blur) (Color)
+*/
+
+/* =>**alignment**<=
+text-alignment: (here is the jwayeh) but it's not the direction
+direction: it's the write one to write some text in arabic or whatever, there is >>ltr or rtl<<
+*/
+
+/* =>**decoration and transform**<=
+text-decoration: for put a line, eather an under one or over.. the most use for this is none to remove underline from a site
+text-transform: to transform the text to capitalize, uppercase, lowercase whatever... 
+*/
+
+/* =>**text spacing**<=
+letter spacing => is to put space between the letters of the text
+text-indent => is to make indentation for the text from the left
+line-height => to put height for the text
+word-spacing => same thing as previous but with words
+white-space => when you make a width for the text, it break it and make it above where the psace is showing on, to avoid that and make the text overflow use |nowrap|
+word-break => opposite of the previous, there is |break-all| to make break and order the stuff inside, and thre is |break-word| to just make break
+*/
+
+/* =>**text-overflow**<=
+text-overflow: ellipsis to make ... that means we cut the text and he is not ended yet
+*/
+
+/* =>**inheritance**<=
+in every single option there is inherit that means the child element take that option from a the father element
+*/
+
+/* =>**typography: font-family**<=
+you can type and choose whatever you want or load it from google fonts website as a side link 
+*/
+
+/* =>**Typography - Font Style And Variant And Weight**<=
+font-weight => to put how much boldness
+*/
+
+/* =>**mouse cursor**<=
+cursor => and here you can choose the right cursor for the right element like  |pointer| for a clickable element and so on...
+*/
+
+/* =>**opacity**<=
+by values btn 0 < x < 1 you can make the transperency of the element 
+*/
+
+/* =>**position(so extreme important)**<=
+position: static (default)
+position: relative the element move by himself (add pixels from top ot whatever) and his limits is the page
+position: absolute the element move by order of the page , and when it is on another div or whatever you should put the div on position relative for our element to move by order of the div
+position: fixed similaire to absolute but he gets fixed when you scrolling (like the thing in pages that when you click on it its backs you to the top)
+position: sticky similaire to the previous like he stick into some place when you are scrolling and you close to it (remember the navigation bar)
+*/
+
+/* =>**z-index**<=
+z-index: and give it the biggest value for howa eli yji foghom g3
+medlo -1 ida bghayt yji wra g3 el ghachi 
+*/
+
+/* =>**lists styling**<=
+list-style-type: type of styling (circle or square or whatever)
+list-style-position: put it inside to let the styling take style you put it on the whole list like background or whatever
+list-style-image: to put image instead of just a sick dots hhhh
+the use of this is to reset the <ul> and costmize it with beautiful style and u know (remember the links of elzero.org)
+*/
+
+/* =>**pseudo classes (so extremely important)**<=
+hover: when you put the mouse do certain thing
+empty: wherever there is an empty element do certain thing
+visited: wherever a certain link is visited do certain thing
+focus: wherever a certain input is focused, do a certain thing
+*/
+
+/* =>**pseudo elements**<=
+::first-line => to deal with the first line on paragraph
+::first-letter => to deal with the first letter on paragraph
+::selection => to deal with the selection of certain paragraph
+*/
+
+/* =>**pseudo elements (now that's extreme very important)**<=
+before and after to do certain things on it, don't forget [content: and let it empty] 
+remember the trick of designing the arrow
+*/
+
+/* =>**pseudo elements part 3**<=
+counter-increment: to count how many element are in spicifique div or whatever, give it a name and put the function (counter: (put the name of the counter-increment)) 
+content: attr() to access to certain attribute and deal with it : remember the trick of showing something when you hover and remember the trick reseted <ul>
+*/
+
+/* =>**vendor prefixes**<=
+webkit => chrome, safari, new v of opera 
+moz => firefox
+ms => ie, edge
+o => old v of opera
+*/
+
+/* =>**box shadow**<=
+box shadow: H- shadow | V-shadow | blur | spread | color | inset or outset
+you can add multiple shadows just by put a , and another settings
+*/
+
+/* =>**box sizing**<=
+box-sizing: border-box to make the box fit with all the content including padding and margin(to fix the width and let u add padding or margin as much as you want)
+*/
+
+/* =>**transition**<=
+transition-duration: how much time it takes to transition from a situation to another
+transiton-delay: how much time delay to transition from a situation to another
+transition-timing-function: choosing how to move 
+there is ease => slow 2 fast 2 slow
+linear => constant speed
+ease-in => slow 2 fast 3 fast
+ease-out => fast 2 slow 2 slow
+ease-in-out => slow 2 slow 2 slow
+transition-property: just name the properties that u want it's transmission to be smooth
+the shortcut property is: transition: transition-property, transition-duration, transition-timing-function, transiton-delay
+*/
+
+/* =>**!important**<=
+to override on things in in your work, you will not use it very much when u work on your own projects, but when it comes to other people's work, you use a godzilla amount(expression about big XD) of it 
+*/
+
+/* =>**the margin collapse**<=
+  The Margin Collapse rules: 
+    [1] Only Vertical Margin Collapse
+    [2] Bigger Margin Wins
+    [3] Margin Collapsing With Elements Without Anything Between
+    [4] Nesting Does Not Prevent Collapse
+*/
+
+/* =>**css variables**<=
+:root (global) {
+  --varname: 
+}
+.local {
+  same thing
+}
+*/
+
+/* =>**flex box parent (sooooo important)**<=
+very very veryyyy important thing, the flex is sooo sensitive about margin and padding so you have to declare the box-sizing: border-box
+display: flex => to call the flex dude
+flex-direction: -row => default value
+                -row-reverse => reverse the row
+                -column => bayna
+                -column-reverse => also bayna
+flex-wrap:  -nowrap the default value 
+            -wrap to move the last added element under the others on the start
+            -wrap-reverse the opposite of the previous
+justify-content:  -flex-start => yabdaw g3 mel start t3 the page (generally left to right)
+                  -flex-end => opposite of the previous
+                  -space-between => put space between elements 
+                  -space-around => put space around the elements
+                  -space-evently => mix between space-between and space-around
+*/
+
+/* =>**align items**<=
+align-items => center to put the text in center
+            => stretch default value , means that when 3 element for ex side by side to each other , when one of them has a height and you put stretch , the other stretch with him
+            => flex-start the other element fit with the one who has height
+            => flex-end the opposite of the previous
+*/
+
+/* =>**align content**<=
+align content => diffrence between it and items , that the last one deal with items , كل على حدة and content deal with the whole content
+*/
+
+/* =>**box-child**<=
+flex-grow => to make an element grow means larger , the large you make the width , he grows more
+flex-shrink => to make an element smaller then others, the diffrence show on when you decrease the width too much and the problems start to begin
+order => to change the order of an element
+*/
+
+/* =>**flex-basis, flex shorthand**<=
+flex-basis: very important thing, similaire to width , should put it with the element that you make it grow with flex-grow so that whatever happens, column or row, the grow still cool
+there is a shorthand
+flex = [flex-grow][flex-shrink][flex-basis]
+display: inline-flex to set anything beside the content
+*/
+
+/* =>**align-self, and other stuff**<=
+align-self => to move certain element like what's you want  like flex-end, flex-start, stretch
+*/
+
+/* =>**filters**<=
+grayscale: black and white
+blur: bayna
+invert: bayna
+*/
+
+/* =>**gradients**<=
+linear-gradient(Direction || Angle, Color Stop 1, Color Stop 2, ....)
+you can add percentage beside the color to identifie how much you want thecolor to take from the content
+*/
+
+
+/* =>**caret color and pointer events**<=
+caret-color: to change the color of the caret
+pointer-events: none to cancel the pointer events (click or hover or whatever)
+*/
+
+/* =>**grid(sooooo damn important)**<=
+display: grid bayna
+grid-template-columns => numbers of columns in >> - px
+                                                  - % 
+                                                  - auto(shy , takes only the minimum of the left width, just as the div on it)
+                                                  - fraction(greedy, takes the left without talikng , better when you want to the content looks normal even the shrink of the tab)
+                                                  - you can use mix you know
+                                                  - use repeat(number of columns, type of kda mena)
+*/
+
+/* =>**grid row and gap**<=
+grid-template-rows: same thing as columns but this time with rows
+row-gap => bayna
+column-gap => bayna
+gap: [row-gap][column-gap]
+*/
+
+/* =>**justify-content and align-content**<=
+same thing as flex but with grid this time 
+*/
+
+/* =>**grid-column and grid-row**<=
+grid-column => like the colspan in tables with tables in html , remember ? it's like this 
+grid-column: start / end;  and you prefer add span to not go accross the limit of it (like the limit of range in python)
+
+grid-row => same thing as column saaaame thing
+*/
+
+/* =>**grid-template-areas and grid-area**<=
+use it to identifie how much you wanna have column in your site
+grid-area: [Grid-Row-Start] [Grid-Column-Start] [Grid-Row-End] [Grid-Column-End]
+*/
+
+/* =>**grid-template shortcut**
+grid-template: grid-template-rows / grid-template-columns
+*/
+
+/* =>**2D transform (so damn important)**<=
+transform: scale(scaleX , scaleY)
+if you put -1 the specifique content will rotate on the axe 
+transform: rotate(bel deg (degree))
+transform: translate(moving on axe X , moving on axe Y) it's obviously moving on the object
+transform: skew(x , y) to ينحرف the object (use cases remember the skewed title)
+transform: matrix(scaleX() , skewY() , skewX() , scaleY() , translateX() , translateY())
+** the diff btw u put it in matrix func and u put it just like that is just like that treat the translate first then moves to the others 
+transform-origin: (x , y)
+keywords:
+x-axis :
+    left = 0
+    center = 50%
+    right = 100%
+y-axis:
+    top = 0
+    center = 50%
+    buttom = 100%
+this do rotate on a specifique point of the object
+*/
+
+/* =>**3D transform**<=
+transform: rotate3d(0->1 rotateX , 0->1 rotateY , 0->1 rotateZ , deg)
+transform: translate3d(same as previous)
+prespective: to indetifie how much the distance btw u and the object(put it on the parent) , larger it gets closer the object to u
+presective-origin: like transform-origin exactly but here is for the prespective
+*/
+
+/* =>**backface visibility**<=
+backface-visibility: hidden => means that whenever you rotate or flip the object it gets hidden
+tranform-style: preserve-3d means that the backside smooth flip, if you delete it the backside will disappear and it show the back of the front side
+the use cases of it is showing things and products from front and back
+*/
+
+/* =>**animation (sooo hoo hoo important)**<=
+@keyframes to put the frames of the animation like that:
+  @keyframes (here you can put any name you want it) {
+    from {
+      some property here 
+    }
+    to {
+      some after property here
+    }
+  }
+  animation-name: the name after @keyframes
+  animation-duration: the duration of animation
+  animation-iteration-count: the counting of iterating
+  animation-time-function: like transition
+  animation-delay: bayna, but when you put a negative value it goes like progressing the video
+  animation-play-state: use to pause or keep running the thing(use it with hover)
+  animation-direction: normal or reverse and there is alternate that means the animation goes normal then goes reverse
+  animation-fill-mode: there is two 
+                        forwards to take the final state of the animation and keep it like that
+                        backwards to take the first state and keep it like that 
+  
+*/
+
+/* =>**selectors reference**<=
+you can select by: 
+  - the element directly (p, div, article ...)
+  - element inside another (div p)
+  - .name means by class name
+  - #id means by id
+  - .parent .child means select element with class name of child inside an element with class name of parent
+  - .parent.child means select element with class name of parent child
+  - element .name means select an element with class name of name inside a specifique elemnt(p .parent)
+  - .parent .child means select the direct child (الابناء الكبار) inside an element with class name of .parent
+  - element + another element => element directly after the first element
+  - element ~ another element => element after the first on the same line
+  - [attribute] => ex: title or class or whatever
+  - [attribute=value] => ex: class= "bachirov"
+  - element[attribute=value] => select element that have attribute=value that we choosed, ex: p[title="jomla"]
+  - [attribute~=value] => select a certain word
+  - [attribute*=value] => select a certain string
+  - [attribute^=value] => select a starting certain string
+  - :first-child bayna the first child of his parent (البكر)
+  - :last-child bayna the last child of his parent (المازوزي)
+  - :first-of-type means the first of his type of his parent (زعما البكر فالدراري ولا فالشيرات)
+  - :last-of-type means the last of his type of his parent (زعما المازوزي فالدراري ولا فالشيرات)
+  - :only-child means the only child of his parent 
+  - :only-of-type means the type of child of his parent
+  - :not(selector) means the selector ta7t el bar
+  - :nth-child() means the number of the element (you can use odd and even to get you know and you can use many things, just search for it)
+  - :nth-last-child() to begin counting from the last element
+  - and same last two things with the type
+  - :root to change things in globally , you can use it single
+  - :checked to change color or something in a checked input
+  - :focus same thing
+  - :required same thing
+  - :empty same thing
+  - :disabled same thing
+  - ::selection change the colors of the the selection
+  - ::placeholder change the color of the placeholder text
+*/
+
+/* =>**media queries and resposive design (the most important thing in the whole css and web design)**<=
+@media condition {
+  peace of code under that condition
+}
+you can use the media on link tag or style tag or the source (on where you work on styles means the css file)
+remember, start working on the mobile design first, then the others
+*/
+
+/* =>**create your framework**<=
+you can use frameworks for components means the properties that repeat every time
+and you can create your own by create a class with name of the the thing that want and go add it in the class of the element
+*/
+
+/* =>**global values**<=
+- inherit means the child inherit properties from the father
+- initial means return an element or whatever to his default first born property
+- unset means if there is properties that he can inherit it, he plays like inherit, if not he plays like initial
+- all plays them all
+- revert means return an element or whatever to his default user agent stylesheet means the browser work
+*/
